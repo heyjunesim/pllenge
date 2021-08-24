@@ -15,37 +15,66 @@ body {
   margin: 15px 5px;
 }
 
+.player:hover {
+  color: white;
+}
+
+@keyframes statusBarAnimation {
+  from {
+    width: 120px;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes imgAnimation {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+    visibility: visible;
+  }
+}
+
 .status-bar {
   display: flex;
   align-items: center;
+  animation: statusBarAnimation 2s ease-in-out;
+}
+
+body img {
+  visibility: hidden;
+  animation: imgAnimation 1s ease-in-out 2s forwards;
 }
 
 #심혜준 {
-  width: 500px;
+  width: 620px;
   height: 30px;
   background-color: lightpink;
 }
 
 #손하연 {
-  width: 250px;
+  width: 370px;
   height: 30px;
   background-color: darkturquoise;
 }
 
 #홍수민 {
-  width: 350px;
+  width: 470px;
   height: 30px;
   background-color: lightgreen;
 }
 
 #허나원 {
-  width: 150px;
+  width: 270px;
   height: 30px;
   background-color: orchid;
 }
 
 #문호정 {
-  width: 550px;
+  width: 670px;
   height: 30px;
   background-color: lightskyblue;
 }
