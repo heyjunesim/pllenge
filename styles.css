@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+
+body {
+  font-family: "Poor Story", cursive;
+  margin: 20px;
+}
+
+.top {
+  margin-bottom: 50px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  margin: 15px 5px;
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+}
+
+#심혜준 {
+  width: 500px;
+  height: 30px;
+  background-color: lightpink;
+}
+
+#손하연 {
+  width: 250px;
+  height: 30px;
+  background-color: darkturquoise;
+}
+
+#홍수민 {
+  width: 350px;
+  height: 30px;
+  background-color: lightgreen;
+}
+
+#허나원 {
+  width: 150px;
+  height: 30px;
+  background-color: orchid;
+}
+
+#문호정 {
+  width: 550px;
+  height: 30px;
+  background-color: lightskyblue;
+}
+
+.status-bar span {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.avatar-pic {
+  width: 30px;
+  position: relative;
+  left: -14px;
+  top: 2px;
+}
+
+.crown {
+  width: 16px;
+  position: relative;
+  left: -36px;
+  top: -26px;
+  transform: rotateZ(11deg);
+}
