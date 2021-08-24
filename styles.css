@@ -6,7 +6,29 @@ body {
 }
 
 .top {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  z-index: 10;
+}
+
+.top h1 {
+  font-size: 40px;
+}
+
+.top span {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.banner button {
+  margin: 15px 5px;
 }
 
 .player {
