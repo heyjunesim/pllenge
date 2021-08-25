@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+/* setting */
+a {
+  color: white;
+}
 
 body {
+  background-color: midnightblue;
+  color: white;
   font-family: "Poor Story", cursive;
   margin: 20px;
 }
 
+/* top */
 .top {
   position: sticky;
   position: -webkit-sticky;
@@ -14,11 +23,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: midnightblue;
   z-index: 10;
 }
 
 .top h1 {
+  font-family: "Jua", sans-serif;
   font-size: 40px;
 }
 
@@ -27,10 +37,15 @@ body {
   margin-bottom: 5px;
 }
 
+.top h3 {
+  font-size: 25px;
+}
+
 .banner button {
   margin: 15px 5px;
 }
 
+/* player */
 .player {
   display: flex;
   align-items: center;
@@ -107,7 +122,7 @@ body img {
 }
 
 .avatar-pic {
-  width: 30px;
+  width: 50px;
   position: relative;
   left: -14px;
   top: 2px;
@@ -119,4 +134,51 @@ body img {
   left: -36px;
   top: -26px;
   transform: rotateZ(11deg);
+}
+
+/* plastic pop */
+.plastic {
+  width: 45px;
+}
+
+.plastic:active {
+  display: none;
+}
+
+#p1 {
+  width: 50px;
+  position: fixed;
+  z-index: 20;
+  top: 150px;
+  left: 270px;
+}
+
+#p2 {
+  width: 60px;
+  position: fixed;
+  z-index: 20;
+  top: 250px;
+  right: 280px;
+}
+
+#p3 {
+  position: fixed;
+  z-index: 20;
+  top: 280px;
+  left: 220px;
+}
+
+#p4 {
+  position: fixed;
+  z-index: 20;
+  top: 30px;
+  left: 90px;
+}
+
+#p5 {
+  position: fixed;
+  z-index: 20;
+  top: 100px;
+  right: 50px;
+  translate: rotateZ(30deg);
 }

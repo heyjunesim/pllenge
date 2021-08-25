@@ -13,13 +13,23 @@
 
 <body>
     <div class="top">
-        <h1>9월 플린지 현황</h1>
+        <h1>👾 9월 플린지 현황 👾</h1>
         <span>1등에게 10만원 상당의 보상이 주어지는 9월 플린지, 과연 승자는?!</span>
-        <span>현재 5명이 참여하고 있어요! 친구들에게 더 널리널리 알려 함께 지구를 구해보아요!</span>
+        <span id="current-players"></span>
+        <div class="clock">
+            <h3 id="countdown"></h3>
+        </div>
         <div class="banner">
             <a href="https://pf.kakao.com/_ExixoJs"><button id="kakao">플린지 참여하러 바로가기</button></a>
             <a href="https://www.instagram.com/pllenge_official/"><button id="instagram">플린지 인스타그램 구경하러가기</button></a>
         </div>
+    </div>
+    <div>
+        <img class="plastic" id="p1" src="https://image.flaticon.com/icons/png/512/3456/3456547.png"/>
+        <img class="plastic" id="p2" src="https://image.flaticon.com/icons/png/512/3456/3456466.png"/>
+        <img class="plastic" id="p3" src="https://image.flaticon.com/icons/png/512/3456/3456533.png"/>
+        <img class="plastic" id="p4" src="https://image.flaticon.com/icons/png/512/2367/2367602.png"/>
+        <img class="plastic" id="p5" src="https://image.flaticon.com/icons/png/512/2367/2367586.png"/>
     </div>
     <div class="player">
         <div class="status">
@@ -29,7 +39,7 @@
             </div>
         </div>
         <div class="avatar">
-            <img class="avatar-pic" src="https://image.flaticon.com/icons/png/512/92/92767.png" />
+            <img class="avatar-pic" src=chosenIcon/>
         </div>
     </div>
     <div class="player">
@@ -78,6 +88,9 @@
             <img class="crown" src="https://image.flaticon.com/icons/png/512/891/891024.png" />
         </div>
     </div>
+
+    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>, and <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <script src="pllenge.js"></script>
 </body>
 
 </html>
