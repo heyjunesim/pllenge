@@ -3,7 +3,7 @@ const HIDDEN_CLASSNAME = "hidden";
 //countdown
 const countdown = document.querySelector("h3#countdown");
 
-const deadline = new Date("sep 20, 2021 23:59:59").getTime();
+const deadline = new Date("sep 19, 2021 23:59:59").getTime();
 const now = new Date().getTime();
 const time = deadline - now;
 const days = Math.floor(time / (1000 * 60 * 60 * 24));
