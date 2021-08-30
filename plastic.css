@@ -1,0 +1,56 @@
+/* plastic pop */
+
+@keyframes plasticAnimation {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
+
+.clicking {
+  animation: plasticAnimation 1s ease-in-out forwards;
+}
+
+#p1 {
+  width: 50px;
+  position: fixed;
+  z-index: 20;
+  top: 150px;
+  left: 270px;
+}
+
+#p2 {
+  width: 60px;
+  position: fixed;
+  z-index: 20;
+  top: 250px;
+  right: 280px;
+}
+
+#p3 {
+  width: 45px;
+  position: fixed;
+  z-index: 20;
+  top: 280px;
+  left: 220px;
+}
+
+#p4 {
+  width: 45px;
+  position: fixed;
+  z-index: 20;
+  top: 30px;
+  left: 90px;
+}
+
+#p5 {
+  width: 45px;
+  position: fixed;
+  z-index: 20;
+  top: 100px;
+  right: 50px;
+  translate: rotateZ(30deg);
+}

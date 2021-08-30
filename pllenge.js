@@ -1,3 +1,5 @@
+const HIDDEN_CLASSNAME = "hidden";
+
 //countdown
 const countdown = document.querySelector("h3#countdown");
 
@@ -43,15 +45,35 @@ const icons = [
   "https://image.flaticon.com/icons/png/512/1538/1538429.png",
 ];
 
-const chosenIcon = icons[Math.floor(Math.random() * icons.length)];
-
 for (i = 0; i < playerNumber; i++) {
-  document.getElementsByClassName("avatar-pic")[i].src = `${chosenIcon}`;
+  document.getElementsByClassName("avatar-pic")[i].src = `${
+    icons[Math.floor(Math.random() * icons.length)]
+  }`;
 }
 
 //plastic pop
-const plastic = document.querySelector(".plastic");
-function plasticClick() {
-  plastic.style.opacity = 0;
+const p1 = document.querySelector("#p1");
+const p2 = document.querySelector("#p2");
+const p3 = document.querySelector("#p3");
+const p4 = document.querySelector("#p4");
+const p5 = document.querySelector("#p5");
+const CLICKING_CLASSNAME = "clicking";
+
+function plasticClick(event) {
+  event.classList.add(CLICKING_CLASSNAME);
 }
-plastic.addEventListener("click", plasticClick);
+p1.addEventListener("mousedown", plasticClick);
+p2.addEventListener("mousedown", plasticClick);
+p3.addEventListener("mousedown", plasticClick);
+p4.addEventListener("mousedown", plasticClick);
+p5.addEventListener("mousedown", plasticClick);
+
+//window size
+const plastic = document.querySelector(".plastic");
+const explanation = document.querySelector("#explanation");
+const windowSize = window.innerWidth;
+if (windowSize < 600) {
+  window.alert("이 페이지는 PC버전으로 확인하는 것을 권장드립니다🙌");
+  plastic.classList.add(HIDDEN_CLASSNAME);
+  explanation.classList.add(HIDDEN_CLASSNAME);
+}
