@@ -59,14 +59,31 @@ const p4 = document.querySelector("#p4");
 const p5 = document.querySelector("#p5");
 const CLICKING_CLASSNAME = "clicking";
 
-function plasticClick(event) {
-  event.classList.add(CLICKING_CLASSNAME);
+function p1Click() {
+  p1.classList.add(CLICKING_CLASSNAME);
 }
-p1.addEventListener("mousedown", plasticClick);
-p2.addEventListener("mousedown", plasticClick);
-p3.addEventListener("mousedown", plasticClick);
-p4.addEventListener("mousedown", plasticClick);
-p5.addEventListener("mousedown", plasticClick);
+
+function p2Click() {
+  p2.classList.add(CLICKING_CLASSNAME);
+}
+
+function p3Click() {
+  p3.classList.add(CLICKING_CLASSNAME);
+}
+
+function p4Click() {
+  p4.classList.add(CLICKING_CLASSNAME);
+}
+
+function p5Click() {
+  p5.classList.add(CLICKING_CLASSNAME);
+}
+
+p1.addEventListener("mousedown", p1Click);
+p2.addEventListener("mousedown", p2Click);
+p3.addEventListener("mousedown", p3Click);
+p4.addEventListener("mousedown", p4Click);
+p5.addEventListener("mousedown", p5Click);
 
 //window size
 const plastic = document.querySelector(".plastic");

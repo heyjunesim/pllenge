@@ -11,7 +11,7 @@
 }
 
 .clicking {
-  animation: plasticAnimation 1s ease-in-out forwards;
+  animation: plasticAnimation 0.7s ease-in-out forwards;
 }
 
 #p1 {
