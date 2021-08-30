@@ -1,0 +1,47 @@
+/* top */
+.top {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: midnightblue;
+  z-index: 10;
+}
+
+.top h1 {
+  font-family: "Jua", sans-serif;
+  font-size: 40px;
+}
+
+.top span {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#explanation {
+  font-size: 15px;
+  color: yellow;
+}
+
+/* countdown */
+@keyframes blink {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.top h3 {
+  font-size: 25px;
+  animation: blink 1s step-end 4;
+}
+
+.banner button {
+  margin: 15px 5px;
+}
