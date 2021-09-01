@@ -44,13 +44,13 @@
   height: 30px;
   background-color: lightpink;
 }
-/* 
-#손하연 {
+
+#PMH {
   width: calc(var(--default-length) + calc((var(--player-2) * 50px)));
   height: 30px;
   background-color: darkturquoise;
 }
-
+/*
 #홍수민 {
   width: calc(var(--default-length) + calc((var(--player-3) * 50px)));
   height: 30px;
