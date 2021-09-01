@@ -3,17 +3,16 @@ const HIDDEN_CLASSNAME = "hidden";
 //countdown
 const countdown = document.querySelector("h3#countdown");
 
-const deadline = new Date("sep 19, 2021 23:59:59").getTime();
-const now = new Date().getTime();
-const time = deadline - now;
-const days = Math.floor(time / (1000 * 60 * 60 * 24));
-const hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-const minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
-const seconds = Math.floor((time % (1000 * 60)) / 1000);
-
 function getCountdown() {
+  const deadline = new Date("sep 19, 2021 23:59:59").getTime();
+  const now = new Date().getTime();
+  const time = deadline - now;
+  const days = Math.floor(time / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((time % (1000 * 60)) / 1000);
   if (time >= 0) {
-    countdown.innerText = `⏳ 남은 시간: ${days}일 ${hours}시간 ${minutes}분 ⌛️`;
+    countdown.innerText = `⏳ 남은 시간: ${days}일 ${hours}시간 ${minutes}분 ${seconds}초 ⌛️`;
   } else {
     countdown.innerText = "플린지가 종료되었습니다. 성원에 감사드립니다 🙇‍♀️🙇🙇‍♂️";
   }

@@ -39,12 +39,12 @@
   animation: imgAnimation 1s ease-in-out 2s forwards;
 }
 
-#심혜준 {
+#ㅎ정 {
   width: calc(var(--default-length) + calc((var(--player-1) * 50px)));
   height: 30px;
   background-color: lightpink;
 }
-
+/* 
 #손하연 {
   width: calc(var(--default-length) + calc((var(--player-2) * 50px)));
   height: 30px;
@@ -67,7 +67,7 @@
   width: calc(var(--default-length) + calc((var(--player-5) * 50px)));
   height: 30px;
   background-color: lightskyblue;
-}
+} */
 
 .status-bar span {
   font-size: 20px;
