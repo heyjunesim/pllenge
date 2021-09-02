@@ -50,24 +50,30 @@
   height: 30px;
   background-color: darkturquoise;
 }
-/*
-#홍수민 {
+
+#홍ㅇ주 {
   width: calc(var(--default-length) + calc((var(--player-3) * 50px)));
   height: 30px;
   background-color: lightgreen;
 }
 
-#허나원 {
+#윤ㅅ영 {
   width: calc(var(--default-length) + calc((var(--player-4) * 50px)));
   height: 30px;
   background-color: orchid;
 }
 
-#문호정 {
+#ㄷ올 {
   width: calc(var(--default-length) + calc((var(--player-5) * 50px)));
   height: 30px;
   background-color: lightskyblue;
-} */
+}
+
+#Joyce {
+  width: calc(var(--default-length) + calc((var(--player-6) * 50px)));
+  height: 30px;
+  background-color: orange;
+}
 
 .status-bar span {
   font-size: 20px;
