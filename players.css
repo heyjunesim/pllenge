@@ -75,6 +75,48 @@
   background-color: orange;
 }
 
+#김ㄱ은 {
+  width: calc(var(--default-length) + calc((var(--player-7) * 50px)));
+  height: 30px;
+  background-color: khaki;
+}
+
+#백ㅎ선 {
+  width: calc(var(--default-length) + calc((var(--player-8) * 50px)));
+  height: 30px;
+  background-color: mediumpurple;
+}
+
+#Back {
+  width: calc(var(--default-length) + calc((var(--player-9) * 50px)));
+  height: 30px;
+  background-color: lightgray;
+}
+
+#패냐는슈ㄹ맘 {
+  width: calc(var(--default-length) + calc((var(--player-10) * 50px)));
+  height: 30px;
+  background-color: lightsalmon;
+}
+
+#Poyeon {
+  width: calc(var(--default-length) + calc((var(--player-11) * 50px)));
+  height: 30px;
+  background-color: thistle;
+}
+
+#ㅈ영 {
+  width: calc(var(--default-length) + calc((var(--player-12) * 50px)));
+  height: 30px;
+  background-color: lightblue;
+}
+
+#문ㅎ민 {
+  width: calc(var(--default-length) + calc((var(--player-13) * 50px)));
+  height: 30px;
+  background-color: peru;
+}
+
 .status-bar span {
   font-size: 20px;
   padding: 5px;

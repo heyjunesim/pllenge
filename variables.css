@@ -1,10 +1,17 @@
 /*variables*/
 :root {
-  --default-length: 150px;
+  --default-length: 170px;
   --player-1: 1;
-  --player-2: 1;
-  --player-3: 2;
-  --player-4: 2;
-  --player-5: 1;
+  --player-2: 2;
+  --player-3: 3;
+  --player-4: 4;
+  --player-5: 2;
   --player-6: 1;
+  --player-7: 1;
+  --player-8: 1;
+  --player-9: 2;
+  --player-10: 1;
+  --player-11: 3;
+  --player-12: 1;
+  --player-13: 1;
 }
