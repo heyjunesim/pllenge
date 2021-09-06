@@ -40,81 +40,279 @@
 }
 
 #ㅎ정 {
-  width: calc(var(--default-length) + calc((var(--player-1) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-1) * var(--length))));
   height: 30px;
   background-color: lightpink;
 }
 
 #PMH {
-  width: calc(var(--default-length) + calc((var(--player-2) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-2) * var(--length))));
   height: 30px;
   background-color: darkturquoise;
 }
 
 #홍ㅇ주 {
-  width: calc(var(--default-length) + calc((var(--player-3) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-3) * var(--length))));
   height: 30px;
   background-color: lightgreen;
 }
 
 #윤ㅅ영 {
-  width: calc(var(--default-length) + calc((var(--player-4) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-4) * var(--length))));
   height: 30px;
   background-color: orchid;
 }
 
 #ㄷ올 {
-  width: calc(var(--default-length) + calc((var(--player-5) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-5) * var(--length))));
   height: 30px;
   background-color: lightskyblue;
 }
 
 #Joyce {
-  width: calc(var(--default-length) + calc((var(--player-6) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-6) * var(--length))));
   height: 30px;
   background-color: orange;
 }
 
 #김ㄱ은 {
-  width: calc(var(--default-length) + calc((var(--player-7) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-7) * var(--length))));
   height: 30px;
   background-color: khaki;
 }
 
 #백ㅎ선 {
-  width: calc(var(--default-length) + calc((var(--player-8) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-8) * var(--length))));
   height: 30px;
   background-color: mediumpurple;
 }
 
 #Back {
-  width: calc(var(--default-length) + calc((var(--player-9) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-9) * var(--length))));
   height: 30px;
   background-color: lightgray;
 }
 
 #패냐는슈ㄹ맘 {
-  width: calc(var(--default-length) + calc((var(--player-10) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-10) * var(--length))));
   height: 30px;
   background-color: lightsalmon;
 }
 
 #Poyeon {
-  width: calc(var(--default-length) + calc((var(--player-11) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-11) * var(--length))));
   height: 30px;
   background-color: thistle;
 }
 
 #ㅈ영 {
-  width: calc(var(--default-length) + calc((var(--player-12) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-12) * var(--length))));
   height: 30px;
   background-color: lightblue;
 }
 
 #문ㅎ민 {
-  width: calc(var(--default-length) + calc((var(--player-13) * 50px)));
+  width: calc(var(--default-length) + calc((var(--player-13) * var(--length))));
   height: 30px;
   background-color: peru;
+}
+
+#구래수ㅌ챠 {
+  width: calc(var(--default-length) + calc((var(--player-14) * var(--length))));
+  height: 30px;
+  background-color: cornflowerblue;
+}
+
+#최ㅈ예 {
+  width: calc(var(--default-length) + calc((var(--player-15) * var(--length))));
+  height: 30px;
+  background-color: darkseagreen;
+}
+
+#더칸ㄷ라 {
+  width: calc(var(--default-length) + calc((var(--player-16) * var(--length))));
+  height: 30px;
+  background-color: lightpink;
+}
+
+#홍ㅊ영 {
+  width: calc(var(--default-length) + calc((var(--player-17) * var(--length))));
+  height: 30px;
+  background-color: darkturquoise;
+}
+
+#김ㅇ진 {
+  width: calc(var(--default-length) + calc((var(--player-18) * var(--length))));
+  height: 30px;
+  background-color: lightgreen;
+}
+
+#ㅎ주 {
+  width: calc(var(--default-length) + calc((var(--player-19) * var(--length))));
+  height: 30px;
+  background-color: orchid;
+}
+
+#조ㅇ빈 {
+  width: calc(var(--default-length) + calc((var(--player-20) * var(--length))));
+  height: 30px;
+  background-color: lightskyblue;
+}
+
+#김ㅎ나 {
+  width: calc(var(--default-length) + calc((var(--player-21) * var(--length))));
+  height: 30px;
+  background-color: orange;
+}
+
+#ㅅ란 {
+  width: calc(var(--default-length) + calc((var(--player-22) * var(--length))));
+  height: 30px;
+  background-color: khaki;
+}
+
+#이ㅈ은 {
+  width: calc(var(--default-length) + calc((var(--player-23) * var(--length))));
+  height: 30px;
+  background-color: mediumpurple;
+}
+
+#김ㅂ현 {
+  width: calc(var(--default-length) + calc((var(--player-24) * var(--length))));
+  height: 30px;
+  background-color: lightgray;
+}
+
+#L {
+  width: calc(var(--default-length) + calc((var(--player-25) * var(--length))));
+  height: 30px;
+  background-color: lightsalmon;
+}
+
+#Shane {
+  width: calc(var(--default-length) + calc((var(--player-26) * var(--length))));
+  height: 30px;
+  background-color: thistle;
+}
+
+#KE {
+  width: calc(var(--default-length) + calc((var(--player-27) * var(--length))));
+  height: 30px;
+  background-color: lightblue;
+}
+
+#미ㄴ꽃 {
+  width: calc(var(--default-length) + calc((var(--player-28) * var(--length))));
+  height: 30px;
+  background-color: peru;
+}
+
+#ㅅ은 {
+  width: calc(var(--default-length) + calc((var(--player-29) * var(--length))));
+  height: 30px;
+  background-color: cornflowerblue;
+}
+
+#심ㄱ원 {
+  width: calc(var(--default-length) + calc((var(--player-30) * var(--length))));
+  height: 30px;
+  background-color: darkseagreen;
+}
+
+#ㅎ진 {
+  width: calc(var(--default-length) + calc((var(--player-31) * var(--length))));
+  height: 30px;
+  background-color: burlywood;
+}
+
+#ㄴ개 {
+  width: calc(var(--default-length) + calc((var(--player-32) * var(--length))));
+  height: 30px;
+  background-color: lightpink;
+}
+
+#최ㅇ정 {
+  width: calc(var(--default-length) + calc((var(--player-33) * var(--length))));
+  height: 30px;
+  background-color: darkturquoise;
+}
+
+#ㄷ송 {
+  width: calc(var(--default-length) + calc((var(--player-34) * var(--length))));
+  height: 30px;
+  background-color: lightgreen;
+}
+
+#송ㅎ조 {
+  width: calc(var(--default-length) + calc((var(--player-35) * var(--length))));
+  height: 30px;
+  background-color: orchid;
+}
+
+#점점점 {
+  width: calc(var(--default-length) + calc((var(--player-36) * var(--length))));
+  height: 30px;
+  background-color: lightskyblue;
+}
+
+#김ㅅ희 {
+  width: calc(var(--default-length) + calc((var(--player-37) * var(--length))));
+  height: 30px;
+  background-color: orange;
+}
+
+#정ㅇ교 {
+  width: calc(var(--default-length) + calc((var(--player-38) * var(--length))));
+  height: 30px;
+  background-color: khaki;
+}
+
+#쫑 {
+  width: calc(var(--default-length) + calc((var(--player-39) * var(--length))));
+  height: 30px;
+  background-color: mediumpurple;
+}
+
+#예ㅅ지 {
+  width: calc(var(--default-length) + calc((var(--player-40) * var(--length))));
+  height: 30px;
+  background-color: lightgray;
+}
+
+#강ㅅ연 {
+  width: calc(var(--default-length) + calc((var(--player-41) * var(--length))));
+  height: 30px;
+  background-color: lightsalmon;
+}
+
+#ㄴ나 {
+  width: calc(var(--default-length) + calc((var(--player-42) * var(--length))));
+  height: 30px;
+  background-color: thistle;
+}
+
+#점 {
+  width: calc(var(--default-length) + calc((var(--player-43) * var(--length))));
+  height: 30px;
+  background-color: lightblue;
+}
+
+#이ㅅ연 {
+  width: calc(var(--default-length) + calc((var(--player-44) * var(--length))));
+  height: 30px;
+  background-color: peru;
+}
+
+#김ㅎ나 {
+  width: calc(var(--default-length) + calc((var(--player-45) * var(--length))));
+  height: 30px;
+  background-color: cornflowerblue;
+}
+
+#ㅅ연 {
+  width: calc(var(--default-length) + calc((var(--player-46) * var(--length))));
+  height: 30px;
+  background-color: darkseagreen;
 }
 
 .status-bar span {
