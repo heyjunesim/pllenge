@@ -315,6 +315,42 @@
   background-color: darkseagreen;
 }
 
+#김ㅎ경 {
+  width: calc(var(--default-length) + calc((var(--player-47) * var(--length))));
+  height: 30px;
+  background-color: lightpink;
+}
+
+#최ㅈ훈 {
+  width: calc(var(--default-length) + calc((var(--player-48) * var(--length))));
+  height: 30px;
+  background-color: darkturquoise;
+}
+
+#ㄱ정 {
+  width: calc(var(--default-length) + calc((var(--player-49) * var(--length))));
+  height: 30px;
+  background-color: lightgreen;
+}
+
+#한ㄷ미 {
+  width: calc(var(--default-length) + calc((var(--player-50) * var(--length))));
+  height: 30px;
+  background-color: orchid;
+}
+
+#백ㅈ민 {
+  width: calc(var(--default-length) + calc((var(--player-51) * var(--length))));
+  height: 30px;
+  background-color: lightskyblue;
+}
+
+#dana {
+  width: calc(var(--default-length) + calc((var(--player-52) * var(--length))));
+  height: 30px;
+  background-color: orange;
+}
+
 .status-bar span {
   font-size: 20px;
   padding: 5px;
