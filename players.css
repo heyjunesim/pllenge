@@ -351,6 +351,48 @@
   background-color: orange;
 }
 
+#danb {
+  width: calc(var(--default-length) + calc((var(--player-53) * var(--length))));
+  height: 30px;
+  background-color: khaki;
+}
+
+#정ㅅ영 {
+  width: calc(var(--default-length) + calc((var(--player-54) * var(--length))));
+  height: 30px;
+  background-color: mediumpurple;
+}
+
+#Ines {
+  width: calc(var(--default-length) + calc((var(--player-55) * var(--length))));
+  height: 30px;
+  background-color: lightgray;
+}
+
+#김ㄷ은 {
+  width: calc(var(--default-length) + calc((var(--player-56) * var(--length))));
+  height: 30px;
+  background-color: lightsalmon;
+}
+
+#정ㄷ진 {
+  width: calc(var(--default-length) + calc((var(--player-57) * var(--length))));
+  height: 30px;
+  background-color: thistle;
+}
+
+#김ㅁ선 {
+  width: calc(var(--default-length) + calc((var(--player-58) * var(--length))));
+  height: 30px;
+  background-color: lightblue;
+}
+
+#Hyejung {
+  width: calc(var(--default-length) + calc((var(--player-59) * var(--length))));
+  height: 30px;
+  background-color: peru;
+}
+
 .status-bar span {
   font-size: 20px;
   padding: 5px;
