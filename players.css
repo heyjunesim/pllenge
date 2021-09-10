@@ -303,7 +303,7 @@
   background-color: peru;
 }
 
-#김ㅎ나 {
+#김해나 {
   width: calc(var(--default-length) + calc((var(--player-45) * var(--length))));
   height: 30px;
   background-color: cornflowerblue;
@@ -391,6 +391,24 @@
   width: calc(var(--default-length) + calc((var(--player-59) * var(--length))));
   height: 30px;
   background-color: peru;
+}
+
+#내이름은ㅎ써 {
+  width: calc(var(--default-length) + calc((var(--player-60) * var(--length))));
+  height: 30px;
+  background-color: cornflowerblue;
+}
+
+#블링ㅇ채 {
+  width: calc(var(--default-length) + calc((var(--player-61) * var(--length))));
+  height: 30px;
+  background-color: darkseagreen;
+}
+
+#이ㅈ인 {
+  width: calc(var(--default-length) + calc((var(--player-62) * var(--length))));
+  height: 30px;
+  background-color: lightpink;
 }
 
 .status-bar span {
