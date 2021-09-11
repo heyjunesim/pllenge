@@ -411,6 +411,24 @@
   background-color: lightpink;
 }
 
+#주영 {
+  width: calc(var(--default-length) + calc((var(--player-63) * var(--length))));
+  height: 30px;
+  background-color: darkturquoise;
+}
+
+#박ㅎ연 {
+  width: calc(var(--default-length) + calc((var(--player-64) * var(--length))));
+  height: 30px;
+  background-color: lightgreen;
+}
+
+#오늘도고맙습ㄴ다 {
+  width: calc(var(--default-length) + calc((var(--player-65) * var(--length))));
+  height: 30px;
+  background-color: orchid;
+}
+
 .status-bar span {
   font-size: 20px;
   padding: 5px;
