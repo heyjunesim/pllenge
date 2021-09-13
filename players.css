@@ -429,6 +429,12 @@
   background-color: orchid;
 }
 
+#보ㅂ스 {
+  width: calc(var(--default-length) + calc((var(--player-66) * var(--length))));
+  height: 30px;
+  background-color: lightskyblue;
+}
+
 .status-bar span {
   font-size: 20px;
   padding: 5px;
