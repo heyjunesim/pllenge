@@ -435,6 +435,12 @@
   background-color: lightskyblue;
 }
 
+#채ㅊ원 {
+  width: calc(var(--default-length) + calc((var(--player-67) * var(--length))));
+  height: 30px;
+  background-color: orange;
+}
+
 .status-bar span {
   font-size: 20px;
   padding: 5px;
