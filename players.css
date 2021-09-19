@@ -441,6 +441,48 @@
   background-color: orange;
 }
 
+#이ㅎ나 {
+  width: calc(var(--default-length) + calc((var(--player-68) * var(--length))));
+  height: 30px;
+  background-color: khaki;
+}
+
+#최ㅎ선 {
+  width: calc(var(--default-length) + calc((var(--player-69) * var(--length))));
+  height: 30px;
+  background-color: mediumpurple;
+}
+
+#이ㅅ민 {
+  width: calc(var(--default-length) + calc((var(--player-70) * var(--length))));
+  height: 30px;
+  background-color: lightgray;
+}
+
+#윤 {
+  width: calc(var(--default-length) + calc((var(--player-71) * var(--length))));
+  height: 30px;
+  background-color: lightsalmon;
+}
+
+#ㅅ희 {
+  width: calc(var(--default-length) + calc((var(--player-72) * var(--length))));
+  height: 30px;
+  background-color: thistle;
+}
+
+#bora {
+  width: calc(var(--default-length) + calc((var(--player-73) * var(--length))));
+  height: 30px;
+  background-color: lightblue;
+}
+
+#양ㅅ은 {
+  width: calc(var(--default-length) + calc((var(--player-74) * var(--length))));
+  height: 30px;
+  background-color: peru;
+}
+
 .status-bar span {
   font-size: 20px;
   padding: 5px;
